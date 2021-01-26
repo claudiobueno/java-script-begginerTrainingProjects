@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
+}
+
+button{
+    text-transform: uppercase;
+    width: 16vh;
+    height: 8vh;
+    cursor: pointer;
+}

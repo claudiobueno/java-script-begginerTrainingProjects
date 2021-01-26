@@ -1,0 +1,51 @@
+body{
+    background-color: wheat;
+}
+
+
+.img-container{
+    width: 80%;
+    height: 90vh;
+    background-image: url("images/1.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 0.5rem solid;
+    border-color: violet;
+    border-radius: 00.5rem;
+    position: relative;
+}
+
+.btn-left {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 50%;
+    background: blue;
+    transform: translate(-50%, -50%);
+    border: 0.2rem solid blue;
+    font-size: 1.2rem;
+}
+
+.btn-left:hover {
+    border-color: darkblue;
+    background: wheat;
+}
+
+.btn-right {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 50%;
+    right: 0;
+    background: blue;
+    transform: translate(50%, -50%);
+    border: 0.2rem solid blue;
+    font-size: 1.2rem;
+}
+
+.btn-right:hover {
+    border-color: darkblue;
+    background: wheat;
+}
+

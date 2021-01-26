@@ -1,0 +1,31 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#message-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#message{
+    background-color: green;
+    margin-bottom: 3vh;
+}
+
+h1{
+    text-transform: uppercase;
+}
