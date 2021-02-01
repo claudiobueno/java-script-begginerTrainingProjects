@@ -1,0 +1,79 @@
+body{
+    /* background-image: url("img/customer-0.jpg"); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100%;
+}
+
+body :nth-child(1) :nth-child(1) {
+    color: red;
+    text-transform: uppercase;
+}
+
+body h1{
+    color: wheat;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.customer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background: transparent;
+    color: white;
+    border: 0.05rem solid white;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.img-card{
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-top: -3rem;
+}
+
+.prevBtn, .nextBtn{
+    width: 15px;
+    height: 15px;
+    color: red;
+    border: 0.1rem solid red;
+    display: flex;
+    position: absolute;
+    padding: 0.4rem ;
+    border-radius: 50%;
+}
+
+.prevBtn:hover{
+    background: blue;
+    border: 0.05rem solid white;
+}
+
+.nextBtn:hover{
+    background: blue;
+    border: 0.05rem solid white;
+}
+
+.prevBtn{
+    top: 50%;
+    left: 2%;
+    transform: translate(-120%,-50%);
+
+}
+
+.nextBtn{
+    top: 50%;
+    right: 2%;
+    transform: translate(120%,-50%);
+}
